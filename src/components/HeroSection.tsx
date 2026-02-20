@@ -1,4 +1,4 @@
-import { Phone, ChevronRight } from "lucide-react";
+import { ChevronRight, Calendar1 } from "lucide-react";
 import heroImage from "@/assets/hero-hvac.jpg";
 
 const HeroSection = () => {
@@ -10,16 +10,16 @@ const HeroSection = () => {
           src={heroImage}
           alt="HVAC technician servicing an outdoor AC unit in Fort Myers, Florida"
           className="h-full w-full object-cover"
-          loading="eager"
-        />
+          loading="eager" />
+
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/40" />
       </div>
 
       {/* Content */}
       <div className="container relative z-10 py-16 md:py-24">
         <div className="max-w-2xl">
-          <div className="trust-badge mb-6">
-            <Phone className="h-4 w-4" />
+          <div className="trust-badge mb-6">🗓️ Schedule the quote
+            <Calendar1 className="h-4 w-4" />
             Same-Day Service Available
           </div>
 
@@ -47,18 +47,18 @@ const HeroSection = () => {
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 pl-0">
               {[
-                "AC blowing warm air",
-                "Unusual noises",
-                "Water leaks",
-                "Unit not turning on",
-                "Weak airflow",
-                "Thermostat problems",
-              ].map((item) => (
-                <li key={item} className="flex items-center gap-2">
+              "AC blowing warm air",
+              "Unusual noises",
+              "Water leaks",
+              "Unit not turning on",
+              "Weak airflow",
+              "Thermostat problems"].
+              map((item) =>
+              <li key={item} className="flex items-center gap-2">
                   <ChevronRight className="h-4 w-4 shrink-0 text-accent" />
                   {item}
                 </li>
-              ))}
+              )}
             </ul>
 
             <p>
@@ -80,8 +80,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
