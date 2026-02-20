@@ -17,7 +17,7 @@ const BookingSection = () => {
             Click below to request your estimate and schedule your service.
           </p>
 
-          <a href="tel:" className="cta-button mt-8 w-full sm:w-auto">
+          <a href="https://calendly.com/elevatehomesolutionsft/30min" target="_blank" rel="noopener noreferrer" className="cta-button mt-8 w-full sm:w-auto">
             Get My Estimate
             <ChevronRight className="ml-2 h-5 w-5" />
           </a>
