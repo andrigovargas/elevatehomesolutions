@@ -73,7 +73,7 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-10">
-            <a href="#estimate" className="cta-button text-base md:text-lg">
+            <a href="https://calendly.com/elevatehomesolutionsft/30min" target="_blank" rel="noopener noreferrer" className="cta-button text-base md:text-lg">
               Request Your Estimate
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>

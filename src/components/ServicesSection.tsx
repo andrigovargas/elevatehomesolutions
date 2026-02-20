@@ -59,7 +59,7 @@ const ServicesSection = () => {
             through your options and help you make the right call for your home
             and your budget.
           </p>
-          <a href="#estimate" className="cta-button-outline inline-flex">
+          <a href="https://calendly.com/elevatehomesolutionsft/30min" target="_blank" rel="noopener noreferrer" className="cta-button-outline inline-flex">
             Check Availability Today
             <ChevronRight className="ml-2 h-5 w-5" />
           </a>
