@@ -18,7 +18,7 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container relative z-10 py-16 md:py-24">
         <div className="max-w-2xl">
-          <div className="trust-badge mb-6">🗓️ Schedule the quote
+          <div className="trust-badge mb-6">Same-Day Service Available
             <Calendar1 className="h-4 w-4" />
             Same-Day Service Available
           </div>
@@ -73,7 +73,7 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-10">
-            <a href="https://calendly.com/elevatehomesolutionsft/30min" target="_blank" rel="noopener noreferrer" className="cta-button text-base md:text-lg">
+            <a href="#estimate" className="cta-button text-base md:text-lg">
               Request Your Estimate
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
