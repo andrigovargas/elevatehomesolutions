@@ -14,15 +14,11 @@ const BookingSection = () => {
           </h2>
 
           <p className="mt-4 text-lg text-muted-foreground">
-            Click below to request your estimate and schedule your service.
+            Text us now and we'll get back to you as soon as possible.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 w-full sm:max-w-xs mx-auto">
-            <a href="https://calendly.com/elevatehomesolutionsft/30min" target="_blank" rel="noopener noreferrer" className="cta-button w-full animate-cta-pulse">
-              Schedule Your Service
-              <ChevronRight className="ml-2 h-5 w-5" />
-            </a>
-            <a href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with" className="cta-button-outline w-full">
+          <div className="mt-8 w-full sm:max-w-xs mx-auto">
+            <a href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with" className="cta-button w-full animate-cta-pulse">
               Send a Text Message Now
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
