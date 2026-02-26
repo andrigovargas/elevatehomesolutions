@@ -24,8 +24,11 @@ const BookingSection = () => {
             </a>
           </div>
 
-          <p className="mt-6 flex items-center justify-center gap-2 text-sm text-muted-foreground">For questions or assistance, please contact us at elevatehomesolutionsft@gmail.com
-.<Clock className="h-4 w-4" />
+          <p className="mt-6 text-sm text-muted-foreground">
+            For questions or assistance, please contact us at elevatehomesolutionsft@gmail.com.
+          </p>
+          <p className="mt-2 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+            <Clock className="h-4 w-4" />
             We'll reach out as soon as possible to schedule your service.
           </p>
         </div>
