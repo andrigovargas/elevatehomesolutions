@@ -31,11 +31,10 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="tel:+12394165666"
+            href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with"
             className="ml-3 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-2.5 text-sm font-bold text-primary-foreground transition-colors hover:bg-primary/90"
           >
-            <Phone className="h-4 w-4" />
-            (239) 416-5666
+            💬 (239) 416-5666
           </a>
         </nav>
 
