@@ -1,40 +1,47 @@
-import { ChevronRight, Clock, Phone } from "lucide-react";
+import { Phone, Clock, ChevronRight } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 const BookingSection = () => {
   return (
     <section id="estimate" className="section-padding">
       <div className="container">
-        <div className="mx-auto max-w-xl text-center rounded-2xl bg-secondary p-10 md:p-14 shadow-sm">
-          <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-            <Phone className="h-8 w-8 text-primary" />
+        <div className="mx-auto max-w-2xl">
+          <div className="text-center mb-10">
+            <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+              <Phone className="h-8 w-8 text-primary" />
+            </div>
+            <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl">
+              Request HVAC Service
+            </h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Fill out the form below and our team will get back to you as soon as possible.
+            </p>
           </div>
 
-          <h2 className="text-3xl font-extrabold tracking-tight md:text-4xl">
-            Need HVAC Service?
-          </h2>
+          <div className="rounded-2xl bg-card border border-border/50 p-6 md:p-10 shadow-sm">
+            <ContactForm />
+          </div>
 
-          <p className="mt-4 text-lg text-muted-foreground">
-            Text us now and we'll get back to you as soon as possible.
-          </p>
-
-          <div className="mt-8 w-full sm:max-w-xs mx-auto">
-            <a href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with" className="cta-button w-full animate-cta-pulse">
-              Send a Text Message Now
+          <div className="text-center mt-8 space-y-3">
+            <p className="text-sm text-muted-foreground">
+              Prefer to text? Send us a message directly:
+            </p>
+            <a
+              href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with"
+              className="cta-button-outline inline-flex text-base"
+            >
+              Send a Text Message
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
+            <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+              <Clock className="h-4 w-4" />
+              We'll reach out as soon as possible to schedule your service.
+            </p>
           </div>
-
-          <p className="mt-6 text-sm text-muted-foreground">
-            For questions or assistance, please contact us at elevatehomesolutionsft@gmail.com.
-          </p>
-          <p className="mt-2 flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <Clock className="h-4 w-4" />
-            We'll reach out as soon as possible to schedule your service.
-          </p>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default BookingSection;
