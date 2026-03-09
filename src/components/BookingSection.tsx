@@ -1,4 +1,4 @@
-import { Phone, Clock, ChevronRight } from "lucide-react";
+import { Phone, Clock } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 const BookingSection = () => {
