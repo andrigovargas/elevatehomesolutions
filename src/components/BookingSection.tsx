@@ -27,7 +27,7 @@ const BookingSection = () => {
               Prefer to call? Reach us directly:
             </p>
             <a
-              href="tel:2394165666"
+              href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with"
               className="cta-button-outline inline-flex text-base"
             >
               💬 (239) 416-5666
