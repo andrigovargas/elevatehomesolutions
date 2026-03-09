@@ -73,8 +73,8 @@ const HeroSection = () => {
           </div>
 
           <div className="mt-10 sm:max-w-xs">
-            <a href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with" className="cta-button w-full text-base md:text-lg animate-cta-pulse">
-              Send a Text Message Now
+            <a href="#estimate" className="cta-button w-full text-base md:text-lg animate-cta-pulse">
+              Request Estimate
               <ChevronRight className="ml-2 h-5 w-5" />
             </a>
           </div>

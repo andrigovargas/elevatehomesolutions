@@ -59,8 +59,8 @@ const ServicesSection = () => {
             through your options and help you make the right call for your home
             and your budget.
           </p>
-          <a href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with" className="cta-button-outline inline-flex">
-            Send Us a Text
+          <a href="#estimate" className="cta-button-outline inline-flex">
+            Request Estimate
             <ChevronRight className="ml-2 h-5 w-5" />
           </a>
         </div>
