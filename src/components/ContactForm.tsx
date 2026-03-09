@@ -17,7 +17,7 @@ const contactSchema = z.object({
 
 type ContactFormValues = z.infer<typeof contactSchema>;
 
-const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE"; // Replace with your Web3Forms access key
+const WEB3FORMS_ACCESS_KEY = "48ce64c4-3300-47e0-b717-cfccf5ba1315";
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
