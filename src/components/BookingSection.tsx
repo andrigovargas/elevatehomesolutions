@@ -24,14 +24,13 @@ const BookingSection = () => {
 
           <div className="text-center mt-8 space-y-3">
             <p className="text-sm text-muted-foreground">
-              Prefer to text? Send us a message directly:
+              Prefer to call? Reach us directly:
             </p>
             <a
-              href="sms:+12394165666?body=Hi%20Elevate!%20I%20need%20help%20with"
+              href="tel:2394165666"
               className="cta-button-outline inline-flex text-base"
             >
-              Send a Text Message
-              <ChevronRight className="ml-2 h-5 w-5" />
+              💬 (239) 416-5666
             </a>
             <p className="text-sm text-muted-foreground flex items-center justify-center gap-2">
               <Clock className="h-4 w-4" />
