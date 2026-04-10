@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { MessageCircle, Phone, Loader2, CheckCircle, Snowflake } from "lucide-react";
+import logoElevate from "@/assets/logo-elevate.png";
 
 const formSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -62,9 +63,9 @@ const AcRepair = () => {
       </div>
 
       <div className="flex-1 flex flex-col items-center justify-center px-5 py-6 relative z-10 max-w-lg mx-auto w-full">
-        {/* Logo / Brand */}
-        <div className="text-center mb-4">
-          <h2 className="text-lg font-bold tracking-wide opacity-90">ELEVATE HOME SOLUTIONS</h2>
+        {/* Logo */}
+        <div className="mb-4">
+          <img src={logoElevate} alt="Elevate Home Solutions" className="h-16 md:h-20 mx-auto" />
         </div>
 
         {/* Headline */}
