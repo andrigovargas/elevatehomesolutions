@@ -3,6 +3,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { MessageCircle, Phone, Loader2, CheckCircle, Snowflake } from "lucide-react";
+import logoElevate from "@/assets/logo-elevate.png";
 
 const formSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
