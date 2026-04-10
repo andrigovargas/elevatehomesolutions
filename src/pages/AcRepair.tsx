@@ -7,7 +7,7 @@ import logoElevate from "@/assets/logo-elevate.png";
 
 const formSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
-  phone: z.string().trim().min(1, "Phone is required").max(20),
+  phone: z.string().trim().regex(/^\+1\d{10}$/, "Enter a valid US number: +1 followed by 10 digits (e.g. +12394782558)"),
   address: z.string().trim().min(1, "Address is required").max(300),
 });
 
