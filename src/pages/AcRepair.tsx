@@ -65,7 +65,7 @@ const AcRepair = () => {
       <div className="flex-1 flex flex-col items-center justify-center px-5 py-6 relative z-10 max-w-lg mx-auto w-full">
         {/* Logo */}
         <div className="mb-4">
-          <img src={logoElevate} alt="Elevate Home Solutions" className="h-16 md:h-20 mx-auto" />
+          <img src={logoElevate} alt="Elevate Home Solutions" className="h-28 md:h-36 mx-auto" />
         </div>
 
         {/* Headline */}
